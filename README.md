@@ -9,8 +9,6 @@ radius = circumference / (2 * np.pi)
 
 theta = distance / radius
 
-chord = 2 * radius * np.sin(theta / 2)
-
 area = 0.5 * radius * radius * np.sin(theta)
 
 height = 2 * (area / radius)
@@ -53,7 +51,13 @@ The profit margin is:  0.04166666666666674
 Time taken: 12 minutes
 
 ## Question 3
+```python
 
+```
+
+```
+
+```
 ## Question 4
 ```python
 def sum(last_number):
