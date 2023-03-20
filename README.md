@@ -64,6 +64,10 @@ print(vwap)
 ```
 1197.4568590030158
 ```
+
+```
+4 + 5 + 6 + 8 + 5 + 9 + 0 + 0 = 37
+```
 Time taken: 29 minutes
 
 ## Question 4
