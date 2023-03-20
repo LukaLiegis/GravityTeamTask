@@ -27,6 +27,7 @@ After this you get the following answer:
 ```
 The answer is:  12.4651257880026 km
 ```
+Time taken: 37 minutes
 
 ## Question 2
 ```python
@@ -49,6 +50,7 @@ The probability that it is a draw is:  0.052083333333333336
 The probability that team B wins is:  0.15625
 The profit margin is:  0.04166666666666674
 ```
+Time taken: 12 minutes
 
 ## Question 3
 
@@ -64,5 +66,7 @@ print("The sum of all numbers from 0 to 10^12 is: ", sum)
 ```
 The sum of all numbers from 0 to 10^12 is:  5.000000000005e+23
 ```
+Time taken: 5 minutes
+
 
 Please see the Answers python notebook to view the whole script I used to calculate all the answers.
