@@ -1,7 +1,6 @@
 # GravityTeamTask
 
 ## Question 1
-To answer the first question I used the following python script to calculate the answer.
 ```python
 distance = 1000
 circumference = 40000
@@ -21,7 +20,7 @@ delta = new_theta - theta
 
 answer = delta * radius
 ```
-After this you get the following answer:
+
 ```
 The answer is:  12.4651257880026 km
 ```
@@ -41,7 +40,6 @@ betting_profit_margin = total_implied_probability - 1
 print("The profit margin is: ", betting_profit_margin)
 ```
 
-The script gives the following answers:
 ```
 The probability that team A wins is:  0.8333333333333334
 The probability that it is a draw is:  0.052083333333333336
