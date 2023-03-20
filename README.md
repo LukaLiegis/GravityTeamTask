@@ -52,11 +52,17 @@ Time taken: 12 minutes
 
 ## Question 3
 ```python
-
+column_names = ["TradeID", "Price", "qty", "quoteQty", "time", "isBuyerMaker", "isBestMatch"]
+df = pd.read_csv("/Users/luka/Downloads/ETHUSDT-trades-2023-01-01.csv", names=column_names)
+df["x"] = df["Price"] * df["qty"]
+qty = df["qty"].sum()
+x = df["x"].sum()
+vwap = x/qty
+print(vwap)
 ```
 
 ```
-
+1197.4568590030158
 ```
 ## Question 4
 ```python
