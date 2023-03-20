@@ -24,12 +24,31 @@ delta = new_theta - theta
 answer = delta * radius
 ```
 After this you get the following answer:
-```python
+```
 The answer is:  12.4651257880026 km
 ```
 
-
 ## Question 2
+```python
+def implied_probability(payout):
+    return 1 / payout
+
+print("The probability that team a wins is: ", implied_probability(1.2))
+print("The probability that it is a draw is: ", implied_probability(19.2))
+print("The probability that team b wins is: ", implied_probability(6.4))
+
+total_implied_probability = implied_probability(1.2) + implied_probability(19.2) + implied_probability(6.4)
+betting_profit_margin = total_implied_probability - 1
+print("The profit margin is: ", betting_profit_margin)
+```
+
+The script gives the following answers:
+```
+The probability that team a wins is:  0.8333333333333334
+The probability that it is a draw is:  0.052083333333333336
+The probability that team b wins is:  0.15625
+The profit margin is:  0.04166666666666674
+```
 
 ## Question 3
 
