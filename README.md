@@ -74,11 +74,11 @@ def sum(last_number):
     return (last_number*(last_number+1))/2
 
 sum = sum(10**12)
-print("The sum of all numbers from 0 to 10^12 is: ", sum)
+print(f"The sum of all numbers from 0 to 10^12 is: {sum:.7f}")
 ```
 
 ```
-The sum of all numbers from 0 to 10^12 is:  5.000000000005e+23
+The sum of all numbers from 0 to 10^12 is: 500000000000500019757056.0000000
 ```
 Time taken: 5 minutes
 
